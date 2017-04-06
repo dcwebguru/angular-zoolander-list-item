@@ -1,0 +1,18 @@
+#header  {
+    background-image: url("/img/header-candy.png");
+    background-color: #cccccc;
+    min-height: 525px;
+}
+
+#footer  {
+    background-image: url("/img/footer-kitty.png");
+    background-color: #000;
+    min-height: 249px;
+}
+
+#navtext {
+	
+}
+.people {
+	float: left;
+}

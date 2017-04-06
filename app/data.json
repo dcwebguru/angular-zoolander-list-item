@@ -1,17 +1,16 @@
 {
 "people":[
-    {"firstName":"John", "lastName":"Doe"}, 
-    {"firstName":"Anna", "lastName":"Smith"},
-    {"firstName":"Billy", "lastName":"Doe"}, 
-    {"firstName":"Betty", "lastName":"Smith"},
-    {"firstName":"Tyrone", "lastName":"Doe"}, 
-    {"firstName":"Dale", "lastName":"Smith"},
-    {"firstName":"David", "lastName":"Doe"}, 
-    {"firstName":"Malik", "lastName":"Smith"},
-    {"firstName":"Dana", "lastName":"Doe"}, 
-    {"firstName":"Todd", "lastName":"Smith"},
-    {"firstName":"Trevor", "lastName":"Doe"}, 
-    {"firstName":"Ethel", "lastName":"Smith"},
-    {"firstName":"Ellen", "lastName":"Jones"}
+    {"firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
+    {"firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
+    {"firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
+    {"firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"},
+    {"firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
+    {"firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
+    {"firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
+    {"firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"},
+    {"firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
+    {"firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
+    {"firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
+    {"firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"}
 ]
 }
