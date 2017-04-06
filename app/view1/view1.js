@@ -9,6 +9,12 @@ angular.module('myApp.view1', ['ngRoute'])
   });
 }])
 
-.controller('View1Ctrl', [function() {
-
+.controller('View1Ctrl', ['$scope','$http', function($scope, $http) {
+         $http.get('data.json').
+        success(function (data, status, headers, config) {
+            alert("success");
+            $scope.myData = data.people;
+        }).error(function (data, status, headers, config) {
+            alert("something went wrong");
+        });
 }]);

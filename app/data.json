@@ -1,0 +1,17 @@
+{
+"people":[
+    {"firstName":"John", "lastName":"Doe"}, 
+    {"firstName":"Anna", "lastName":"Smith"},
+    {"firstName":"Billy", "lastName":"Doe"}, 
+    {"firstName":"Betty", "lastName":"Smith"},
+    {"firstName":"Tyrone", "lastName":"Doe"}, 
+    {"firstName":"Dale", "lastName":"Smith"},
+    {"firstName":"David", "lastName":"Doe"}, 
+    {"firstName":"Malik", "lastName":"Smith"},
+    {"firstName":"Dana", "lastName":"Doe"}, 
+    {"firstName":"Todd", "lastName":"Smith"},
+    {"firstName":"Trevor", "lastName":"Doe"}, 
+    {"firstName":"Ethel", "lastName":"Smith"},
+    {"firstName":"Ellen", "lastName":"Jones"}
+]
+}
