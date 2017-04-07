@@ -1,16 +1,16 @@
 {
 "people":[
-    {"id":"000000001", "firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
-    {"id":"000000002", "firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
-    {"id":"000000003", "firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
-    {"id":"000000004", "firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"},
-    {"id":"000000005", "firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
-    {"id":"000000006", "firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
-    {"id":"000000007", "firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
-    {"id":"000000008", "firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"},
-    {"id":"000000009", "firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
-    {"id":"000000010", "firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
-    {"id":"000000011", "firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
-    {"id":"000000012", "firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"}
+    {"id":"0", "firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
+    {"id":"1", "firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
+    {"id":"2", "firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
+    {"id":"3", "firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"},
+    {"id":"4", "firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
+    {"id":"5", "firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
+    {"id":"6", "firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
+    {"id":"7", "firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"},
+    {"id":"8", "firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
+    {"id":"9", "firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
+    {"id":"10", "firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
+    {"id":"11", "firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"}
 ]
 }

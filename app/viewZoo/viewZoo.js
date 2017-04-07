@@ -10,9 +10,16 @@ angular.module('myApp.viewZoo', ['ngRoute'])
 }])
 
 .controller('ViewZooCtrl', ['$scope','$http', function($scope, $http) {
+    $scope.nameFilter = null;
+    $scope.driversList = [];
+    $scope.searchFilter = function (driver) {
+        var re = new RegExp($scope.nameFilter, 'i');
+        return !$scope.nameFilter || re.test(driver.Driver.givenName) || re.test(driver.Driver.familyName);
+    };
+
 	$http.get('data.json').
 		success(function (data, status, headers, config) {
-			$scope.myData = data.people;
+			$scope.person = data.people;
 		}).error(function (data, status, headers, config) {
 			alert("something went wrong");
 		});

@@ -16,3 +16,11 @@
 .people {
 	float: left;
 }
+
+.zooImageList {
+	width: 80px;
+}
+
+.zooImageProfile {
+	width: 400px;
+}

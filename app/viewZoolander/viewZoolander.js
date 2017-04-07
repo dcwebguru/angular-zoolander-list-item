@@ -9,14 +9,14 @@ angular.module('myApp.viewZoolander', ['ngRoute'])
   });
 }])
 
-.controller('ViewZoolanderCtrl', ['$scope','$http', function($scope, $http, $routeParams) {
+.controller('ViewZoolanderCtrl', ['$scope','$http', '$routeParams', function($scope, $http, $routeParams) {
 
 	$http.get('data.json').
 		success(function (data, status, headers, config) {
-			$scope.myData = data.people;
+			$scope.person = data.people[$routeParams.id];
+			$scope.people = data.people;
 		}).error(function (data, status, headers, config) {
 			alert("something went wrong");
 		});
-
 }]);
 
