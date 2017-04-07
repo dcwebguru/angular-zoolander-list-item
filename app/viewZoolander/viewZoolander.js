@@ -10,6 +10,7 @@ angular.module('myApp.viewZoolander', ['ngRoute'])
 }])
 
 .controller('ViewZoolanderCtrl', ['$scope','$http', '$routeParams', function($scope, $http, $routeParams) {
+$scope.zooList = [];
 
 	$http.get('data.json').
 		success(function (data, status, headers, config) {
