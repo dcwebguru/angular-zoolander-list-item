@@ -1,15 +1,16 @@
 'use strict';
 
-angular.module('myApp.viewZoo', ['ngRoute'])
+angular.module('myApp.viewZoolander', ['ngRoute'])
 
 .config(['$routeProvider', function($routeProvider) {
-  $routeProvider.when('/zoo', {
-    templateUrl: 'viewZoo/viewZoo.html',
-    controller: 'ViewZooCtrl'
+  $routeProvider.when('/zoo/:id', {
+    templateUrl: 'viewZoolander/viewZoolander.html',
+    controller: 'ViewZoolanderCtrl'
   });
 }])
 
-.controller('ViewZooCtrl', ['$scope','$http', function($scope, $http) {
+.controller('ViewZoolanderCtrl', ['$scope','$http', function($scope, $http, $routeParams) {
+
 	$http.get('data.json').
 		success(function (data, status, headers, config) {
 			$scope.myData = data.people;
@@ -18,3 +19,4 @@ angular.module('myApp.viewZoo', ['ngRoute'])
 		});
 
 }]);
+

@@ -1,0 +1,13 @@
+<div ng-app="myApp.viewZoolander" ng-controller="ViewZoolanderCtrl"> 
+<h1>What is this? A center for Ants?</h1>
+<p>We have a vision here. Click below to explore our wonderland.</p>
+  <div class="people" ng-repeat="y in myData">
+	    <a href="#/zoo/{{y.id}}" ng-click="open(y);">
+	    	<p>{{ y.firstName + ' is a ' + y.gender }}.</p>
+			<img src="{{ y.imageFile }}" alt="{{ y.firstName + ' is a ' + y.gender }}." />
+	    </a>
+
+  </div>
+
+
+</div>

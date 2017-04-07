@@ -1,16 +1,16 @@
 {
 "people":[
-    {"ssn":"000000001", "firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
-    {"ssn":"000000002", "firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
-    {"ssn":"000000003", "firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
-    {"ssn":"000000004", "firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"},
-    {"ssn":"000000005", "firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
-    {"ssn":"000000006", "firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
-    {"ssn":"000000007", "firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
-    {"ssn":"000000008", "firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"},
-    {"ssn":"000000009", "firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
-    {"ssn":"000000010", "firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
-    {"ssn":"000000011", "firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
-    {"ssn":"000000012", "firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"}
+    {"id":"000000001", "firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
+    {"id":"000000002", "firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
+    {"id":"000000003", "firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
+    {"id":"000000004", "firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"},
+    {"id":"000000005", "firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
+    {"id":"000000006", "firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
+    {"id":"000000007", "firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
+    {"id":"000000008", "firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"},
+    {"id":"000000009", "firstName":"Zoolander", "gender":"Male", "imageFile":"/img/1-Zoolander.png"}, 
+    {"id":"000000010", "firstName":"Hansel", "gender":"Male", "imageFile":"/img/2-Hansel.png"},
+    {"id":"000000011", "firstName":"Mugatu", "gender":"Male", "imageFile":"/img/3-Mugatu.png"}, 
+    {"id":"000000012", "firstName":"Matilda", "gender":"Female", "imageFile":"/img/4-Matilda.png"}
 ]
 }

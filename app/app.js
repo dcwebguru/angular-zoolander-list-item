@@ -4,13 +4,12 @@
 angular.module('myApp', [
   'ngRoute',
   'myApp.viewZoo',
+  'myApp.viewZoolander',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
-  $locationProvider.hashPrefix('!');
+  $locationProvider.hashPrefix('');
 
   $routeProvider.
-	when("/zoo", {templateUrl: "viewZoo/viewZoo.html", controller: "ViewZooCtrl"}).
-	when("/zoo/:id", {templateUrl: "viewZoo/viewZoo.html", controller: "ViewZooCtrl"}).
 	otherwise({redirectTo: '/zoo'});
 }]);
