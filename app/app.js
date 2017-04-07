@@ -3,12 +3,14 @@
 // Declare app level module which depends on views, and components
 angular.module('myApp', [
   'ngRoute',
-  'myApp.viewList',
-  'myApp.viewItem',
+  'myApp.viewZoo',
   'myApp.version'
 ]).
 config(['$locationProvider', '$routeProvider', function($locationProvider, $routeProvider) {
   $locationProvider.hashPrefix('!');
 
-  $routeProvider.otherwise({redirectTo: '/viewList'});
+  $routeProvider.
+	when("/zoo", {templateUrl: "viewZoo/viewZoo.html", controller: "ViewZooCtrl"}).
+	when("/zoo/:id", {templateUrl: "viewZoo/viewZoo.html", controller: "ViewZooCtrl"}).
+	otherwise({redirectTo: '/zoo'});
 }]);

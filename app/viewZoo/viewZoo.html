@@ -1,8 +1,8 @@
-<div ng-app="myApp.viewList" ng-controller="ViewListCtrl"> 
+<div ng-app="myApp.viewZoo" ng-controller="ViewZooCtrl"> 
 <h1>What is this? A center for Ants?</h1>
 <p>We have a vision here. Click below to explore our wonderland.</p>
   <div class="people" ng-repeat="x in myData">
-	    <a href="#" ng-click="open(x);">
+	    <a href="#!/zoo/{{x.ssn}}" ng-click="open(x);">
 	    	<p>{{ x.firstName + ' is a ' + x.gender }}.</p>
 			<img src="{{ x.imageFile }}" alt="{{ x.firstName + ' is a ' + x.gender }}." />
 	    </a>
