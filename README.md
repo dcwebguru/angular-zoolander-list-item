@@ -1,5 +1,4 @@
-# Zoolander
-
+# Angular - Zoolander (List/Item View)
 I'm creating a dynamic list of items that links to individual profile pages using AngularJS.
 =======
 # zoolander-list-item
